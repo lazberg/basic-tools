@@ -1,0 +1,40 @@
+<DOCTYPE! html>
+<html>
+<head>
+	<script src="main.js"></script>
+	<title>Edo's Basic Tools For His Lazy Self</title>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<style>
+		body {
+			background-image:url('http://orig06.deviantart.net/14f9/f/2007/177/a/8/seamless_parchment_texture_by_fantasystock.jpg');
+			font-family: 'Open Sans', sans-serif;
+			background:#240211;
+		}
+		#wrapper {
+			background:rgba(255,255,255,0.75);
+			width:600px;
+			height:800px;
+			text-align:center;
+			position:absolute;
+			left:0;
+			right:0;
+			top:0;
+			margin:0 auto 0 auto;
+			padding-top:50px;
+		}
+		textarea {
+			resize:none;
+		}
+	</style>
+</head>
+<body>
+	<div id="wrapper">
+		<form onsubmit="return false;">
+			Convert that shit into ["that", "shit"].
+			<textarea id="arrayInput" cols=50 rows=8></textarea></br>
+			<button id="arrayConvert" onclick="NamesToArray()">Convert</button></br>
+			<textarea id="arrayOutput" cols=50 rows=8 placeholder="aa"></textarea>
+		</form>
+	</div>
+</body>
+</html>
