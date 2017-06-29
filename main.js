@@ -8,6 +8,9 @@ function NamesToArray() {
 		if (letter == " ") {
 			document.getElementById('arrayOutput').innerHTML += '", "';
 		}
+		else if (letter == ",") {
+			document.getElementById('arrayOutput').innerHTML += "";
+		}
 		else {
 			document.getElementById('arrayOutput').innerHTML += letter;
 		}
